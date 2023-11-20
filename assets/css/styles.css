@@ -1,0 +1,25 @@
+body{
+    font-family: 'Basic', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-link{
+    color: #000 ;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.figma-btn {
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    color: #fff !important;
+  }
+
+.btn {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    align-items: center;
+    justify-content: center;
+}
