@@ -1,0 +1,120 @@
+#section2 {
+  font-family: "Basic", sans-serif !important;
+  font-weight: 400 !important;
+
+  padding: 0;
+}
+#section2 .oval {
+  max-width: 276px;
+  z-index: 0;
+}
+.aboutUs {
+  height: 267px;
+}
+#section2 h2 {
+  font-size: 40px;
+  font-weight: 400 !important;
+}
+#section2 p {
+  max-width: 823px;
+  font-size: 20px;
+}
+.about .line {
+  width: 100px;
+  height: 1px;
+  margin: auto;
+  background-color: #e73587;
+  margin-bottom: 24px;
+}
+
+.services {
+  padding-top: 59px;
+}
+#section2 .services .card {
+  max-width: 377px;
+  padding: 31px 20px;
+  margin: 0px 10px;
+}
+.services .line {
+  width: 100px;
+  height: 1px;
+  margin: auto;
+  background-color: #e73587;
+  margin-bottom: 49px;
+}
+#section2 .services .card h5 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+#section2 .services .card button {
+  background: rgb(231, 53, 135);
+  background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+  padding: 12px 40px;
+  margin-top: 59px;
+  font-size: 12px;
+}
+.arrow {
+  background: rgb(231, 53, 135);
+  background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.bg {
+  margin-top: -370px;
+}
+.next {
+  position: absolute;
+  margin-top: -38px;
+  right: 36px;
+}
+@media screen and (max-width: 900px) {
+  #section2 h2 {
+    font-size: 30px;
+  }
+  #section2 p {
+    font-size: 16px;
+  }
+  #section2 .services .card h5 {
+    font-size: 18px !important;
+  }
+  .aboutUs {
+    max-height: 200px;
+    padding: 0px 20px;
+  }
+  #section2 .oval {
+    max-width: 100px;
+    z-index: 0;
+  }
+  .services {
+    padding-top: 10px;
+  }
+  .next {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #section2 h2 {
+    font-size: 24px;
+  }
+  #section2 p {
+    font-size: 12px;
+  }
+
+  #section2 .services .card h5 {
+    font-size: 16px !important;
+  }
+  #section2 .services .card {
+    padding: 2px 2px;
+    margin: 0px 5px;
+  }
+  #section2 .services .card button {
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .bg {
+    margin-top: -200px;
+  }
+}
