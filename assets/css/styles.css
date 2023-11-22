@@ -13,7 +13,10 @@ body{
 
 .figma-btn {
     background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
-    color: #fff !important;
+  }
+  
+  .figma-btn a{
+    color: #fff;
   }
 
 #header .btn, nav .btn {
@@ -191,7 +194,7 @@ body{
     width: 140px;
     height: 40px;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-    padding: 15px 30px;
+    padding: 11px 30px;
     color: #fff;
     font-size: 12px;
     text-decoration: none;
@@ -292,6 +295,8 @@ body{
 }
 
 .message{
+  padding: 10px;
+  resize: none;
     width: 100%;
     height: 168px;
     margin-right: 135px;
