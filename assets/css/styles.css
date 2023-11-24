@@ -116,6 +116,27 @@ body{
     .next {
       display: none;
     }
+
+      .judul h5 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .judul h1 {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+
+  .footer h5{
+    padding-left: 50px;
+    font-size: 10px;
+  }
+
+  .pesan{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   }
   @media screen and (max-width: 600px) {
     #section2 h2 {
@@ -140,6 +161,30 @@ body{
     .bg {
       margin-top: -200px;
     }
+
+      .img-section{
+        width: 95%;
+    }
+
+      .judul h5 {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  .judul h1 {
+    font-size: 48px;
+    margin-left: 20px;
+  }
+  .footer h5{
+    padding-left: 50px;
+    font-size: 10px;
+  }
+
+  .pesan{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
   }
 
   .horizontal-devider-our-work{
@@ -232,11 +277,7 @@ body{
     }
 }
 
-@media screen and (max-width:500px) {
-    .img-section{
-        width: 95%;
-    }
-}
+
 
 #contact {
     margin-top: 50px;
@@ -341,47 +382,6 @@ body{
 }
 
 
-@media screen and (max-width: 900px) {
-  .judul h5 {
-    font-size: 20px;
-    margin-left: 20px;
-  }
 
-  .judul h1 {
-    font-size: 80px;
-    margin-left: 20px;
-  }
 
-  .footer h5{
-    padding-left: 50px;
-    font-size: 10px;
-  }
-
-  .pesan{
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .judul h5 {
-    font-size: 15px;
-    margin-left: 20px;
-  }
-
-  .judul h1 {
-    font-size: 75px;
-    margin-left: 20px;
-  }
-  .footer h5{
-    padding-left: 50px;
-    font-size: 10px;
-  }
-
-  .pesan{
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-}
 
