@@ -1,387 +1,392 @@
-body{
-    font-family: 'Basic', sans-serif;
-    overflow-x: hidden;
+body {
+  font-family: "Basic", sans-serif;
+  overflow-x: hidden;
 }
 
-.nav-link{
-    color: #000 ;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.8px;
+.nav-link {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
 }
 
 .figma-btn {
-    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
-  }
-  
-  .figma-btn a{
-    color: #fff;
-  }
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
 
-#header .btn, nav .btn {
-    width: 140px;
-    height: 40px;
-    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
-    align-items: center;
-    justify-content: center;
+.figma-btn a {
+  color: #fff;
+}
+
+#header .btn,
+nav .btn {
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  align-items: center;
+  justify-content: center;
 }
 
 #section2 .oval {
-    max-width: 276px;
-    z-index: 0;
+  max-width: 276px;
+  z-index: 0;
+}
+.aboutUs {
+  height: 267px;
+}
+#section2 h2 {
+  font-size: 40px;
+  font-weight: 400 !important;
+}
+#section2 p {
+  max-width: 823px;
+  font-size: 20px;
+}
+.about .line {
+  width: 100px;
+  height: 1px;
+  margin: auto;
+  background-color: #e73587;
+  margin-bottom: 24px;
+}
+
+.services {
+  padding-top: 59px;
+}
+#section2 .services .card {
+  max-width: 377px;
+  padding: 31px 20px;
+  margin: 0px 10px;
+}
+.services .line {
+  width: 100px;
+  height: 1px;
+  margin: auto;
+  background-color: #e73587;
+  margin-bottom: 49px;
+}
+#section2 .services .card h5 {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+#section2 .services .card button {
+  background: rgb(231, 53, 135);
+  background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+  padding: 12px 40px;
+  margin-top: 59px;
+  font-size: 12px;
+}
+.arrow {
+  background: rgb(231, 53, 135);
+  background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.bg {
+  margin-top: -370px;
+}
+.next {
+  position: absolute;
+  margin-top: -38px;
+  right: 36px;
+}
+
+.horizontal-devider-our-work {
+  width: 100px;
+  height: 1px;
+  border: 2px solid #e73587;
+  background-color: #e73587;
+}
+
+.container-brand-section {
+  background-color: #020e35;
+  color: #fff;
+}
+
+.brand-section {
+  margin: 25px 0;
+}
+
+.brand-section > div {
+  margin: 10px;
+}
+
+.img-section-1 {
+  width: 100%;
+  padding: 0 110px;
+  background: #f09532;
+}
+
+.img-section-2 {
+  width: 100%;
+  padding: 25px 110px 0 110px;
+  background: #8c32f0;
+}
+
+.img-section-3 {
+  width: 100%;
+  padding: 60px 0px 0px 0px;
+  background: #e73587;
+}
+
+.img-section-4 {
+  width: 100%;
+  padding: 60px 0;
+  background: #32d6f0;
+}
+
+.tag-text {
+  letter-spacing: 3px;
+}
+
+.button-brand-section {
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  padding: 11px 30px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.title-text {
+  font-size: 2.3em;
+}
+
+.tag-text {
+  font-size: 1em;
+}
+
+.description-text {
+  width: 70%;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-section {
+    align-items: start;
   }
-  .aboutUs {
-    height: 267px;
+
+  .brand-section {
+    flex-wrap: wrap;
   }
+
+  .brand-section-2 {
+    flex-direction: column-reverse;
+  }
+
+  .brand-section-4 {
+    flex-direction: column-reverse;
+  }
+}
+
+#contact {
+  margin-top: 50px;
+}
+
+.judul h5 {
+  color: #020e35;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 135px;
+}
+
+.judul h1 {
+  color: #020e35;
+  font-size: 90px;
+  font-weight: 400;
+  margin-left: 135px;
+}
+
+.judul h1 b {
+  color: #e73587;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.label_pesan h5 {
+  color: #020e35;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.label_message h5 {
+  color: #020e35;
+  font-size: 16px;
+  font-weight: 400;
+  height: 150px;
+}
+
+::placeholder {
+  color: #717d97;
+}
+
+.email,
+.subject {
+  width: 100%;
+  height: 48px;
+  margin-right: 135px;
+  padding-left: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
+.message {
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  height: 168px;
+  margin-right: 135px;
+  padding-left: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
+.pesan {
+  margin-right: 135px;
+}
+
+#contact .btn {
+  width: 100%;
+  background: rgb(140, 50, 240);
+  background: linear-gradient(90deg, rgba(140, 50, 240, 1) 0%, rgba(231, 53, 135, 1) 100%);
+  border: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  height: 48px;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #020e35;
+  margin-top: 100px;
+  width: 100%;
+  height: 25px;
+}
+
+.footer h5 {
+  padding-top: 6px;
+  padding-left: 135px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
   #section2 h2 {
-    font-size: 40px;
-    font-weight: 400 !important;
+    font-size: 30px;
   }
   #section2 p {
-    max-width: 823px;
-    font-size: 20px;
-  }
-  .about .line {
-    width: 100px;
-    height: 1px;
-    margin: auto;
-    background-color: #e73587;
-    margin-bottom: 24px;
-  }
-  
-  .services {
-    padding-top: 59px;
-  }
-  #section2 .services .card {
-    max-width: 377px;
-    padding: 31px 20px;
-    margin: 0px 10px;
-  }
-  .services .line {
-    width: 100px;
-    height: 1px;
-    margin: auto;
-    background-color: #e73587;
-    margin-bottom: 49px;
+    font-size: 16px;
   }
   #section2 .services .card h5 {
-    font-size: 20px !important;
-    font-weight: 400 !important;
+    font-size: 18px !important;
   }
-  #section2 .services .card button {
-    background: rgb(231, 53, 135);
-    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
-    padding: 12px 40px;
-    margin-top: 59px;
-    font-size: 12px;
+  .aboutUs {
+    max-height: 200px;
+    padding: 0px 20px;
   }
-  .arrow {
-    background: rgb(231, 53, 135);
-    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
-    width: 76px;
-    height: 76px;
-    border-radius: 50%;
+  #section2 .oval {
+    max-width: 100px;
+    z-index: 0;
   }
-  
-  .bg {
-    margin-top: -370px;
+  .services {
+    padding-top: 10px;
   }
   .next {
-    position: absolute;
-    margin-top: -38px;
-    right: 36px;
+    display: none;
   }
-  @media screen and (max-width: 900px) {
-    #section2 h2 {
-      font-size: 30px;
-    }
-    #section2 p {
-      font-size: 16px;
-    }
-    #section2 .services .card h5 {
-      font-size: 18px !important;
-    }
-    .aboutUs {
-      max-height: 200px;
-      padding: 0px 20px;
-    }
-    #section2 .oval {
-      max-width: 100px;
-      z-index: 0;
-    }
-    .services {
-      padding-top: 10px;
-    }
-    .next {
-      display: none;
-    }
 
-      .judul h5 {
+  .judul h5 {
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .judul h1 {
     font-size: 60px;
-    margin-left: 20px;
+    margin-left: 30px;
+  }
+  .judul h1 b {
+    font-size: 60px;
   }
 
-  .footer h5{
+  .footer h5 {
     padding-left: 50px;
     font-size: 10px;
   }
 
-  .pesan{
+  .pesan {
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
   }
+}
+@media screen and (max-width: 600px) {
+  #section2 h2 {
+    font-size: 24px;
   }
-  @media screen and (max-width: 600px) {
-    #section2 h2 {
-      font-size: 24px;
-    }
-    #section2 p {
-      font-size: 12px;
-    }
-  
-    #section2 .services .card h5 {
-      font-size: 16px !important;
-    }
-    #section2 .services .card {
-      padding: 2px 2px;
-      margin: 0px 5px;
-    }
-    #section2 .services .card button {
-      padding: 5px 10px;
-      margin-top: 20px;
-      font-size: 12px;
-    }
-    .bg {
-      margin-top: -200px;
-    }
+  #section2 p {
+    font-size: 12px;
+  }
 
-      .img-section{
-        width: 95%;
-    }
+  #section2 .services .card h5 {
+    font-size: 16px !important;
+  }
+  #section2 .services .card {
+    padding: 2px 2px;
+    margin: 0px 5px;
+  }
+  #section2 .services .card button {
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .bg {
+    height: 250px !important;
+  }
+  .bg {
+    margin-top: -200px;
+  }
 
-      .judul h5 {
-    font-size: 15px;
-    margin-left: 20px;
+  .img-section {
+    width: 95%;
+  }
+
+  .judul h5 {
+    font-size: 20px;
+    margin-left: 15px;
   }
 
   .judul h1 {
     font-size: 48px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
-  .footer h5{
+  .judul h1 b {
+    font-size: 48px;
+  }
+  .email,
+  .subject,
+  .message {
+    margin-right: 0;
+  }
+  .footer h5 {
     padding-left: 50px;
     font-size: 10px;
   }
 
-  .pesan{
+  .pesan {
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
   }
-  }
-
-  .horizontal-devider-our-work{
-    width: 100px;
-    height: 1px;
-    border: 2px solid #E73587;
-    background-color: #E73587;
 }
-
-.container-brand-section{
-    background-color: #020E35;
-    color: #fff;
-}
-
-.brand-section{
-    margin: 25px 0;
-}
-
-.brand-section > div{
-    margin: 10px;
-}
-
-.img-section-1{
-    width: 100%;
-    padding: 0 110px;
-    background: #F09532;
-}
-
-.img-section-2{
-    width: 100%;
-    padding: 25px 110px 0 110px;
-    background: #8C32F0;
-}
-
-.img-section-3{
-    width: 100%;
-    padding: 60px 0px 0px 0px;
-    background: #E73587;
-}
-
-.img-section-4{
-    width: 100%;
-    padding: 60px 0;
-    background: #32D6F0;
-}
-
-.tag-text{
-    letter-spacing: 3px;
-}
-
-.button-brand-section{
-    width: 140px;
-    height: 40px;
-    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-    padding: 11px 30px;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.title-text{
-    font-size: 2.3em;
-}
-
-.tag-text{
-    font-size: 1em;
-}
-
-.description-text{
-    width: 70%;
-    font-size: 1em;
-}
-
-@media screen and (max-width: 1200px) {
-    .text-section{
-        align-items: start;
-        
-    }
-
-    .brand-section{
-        flex-wrap: wrap;
-    }
-
-    .brand-section-2{
-        flex-direction: column-reverse;
-    }
-
-    .brand-section-4{
-        flex-direction: column-reverse;
-    }
-}
-
-
-
-#contact {
-    margin-top: 50px;
-}
-
-.judul h5 {
-    color: #020E35;
-    font-size: 30px;
-    font-weight: 400;
-    margin-left: 135px;
-}
-
-.judul h1 {
-    color: #020E35;
-    font-size: 90px;
-    font-weight: 400;
-    margin-left: 135px;
-}
-
-.judul h1 b {
-    color: #E73587;
-    font-size: 90px;
-    font-weight: 400;
-}
-
-
-.label_pesan h5{
-    color: #020E35;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.label_message h5{
-    color: #020E35;
-    font-size: 16px;
-    font-weight: 400;
-    height: 150px;
-}
-
-::placeholder {
-    color: #717d97;
-}
-
-
-
-.email, .subject{
-    width: 100%;
-    height: 48px;
-    margin-right: 135px;
-    padding-left: 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    box-sizing: border-box;
-    margin-bottom: 35px; 
-}
-
-.message{
-  padding: 10px;
-  resize: none;
-    width: 100%;
-    height: 168px;
-    margin-right: 135px;
-    padding-left: 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    box-sizing: border-box;
-    margin-bottom: 35px; 
-}
-
-
-.pesan{
-    margin-right: 135px;
-}
-
-#contact .btn{
-    width: 100%;
-    background: rgb(140,50,240);
-    background: linear-gradient(90deg, rgba(140,50,240,1) 0%, rgba(231,53,135,1) 100%);
-    border: 0px;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 400;
-    height: 48px;
-    justify-content: center;
-}
-
-.footer{
-    background-color: #020E35;;
-    margin-top: 100px;
-    width: 100%;
-    height: 25px;
-}
-
-.footer h5{
-    padding-top: 6px;
-    padding-left: 135px;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-
-
-
-
