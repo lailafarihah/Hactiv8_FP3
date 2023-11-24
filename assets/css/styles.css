@@ -339,3 +339,49 @@ body{
     font-size: 12px;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 900px) {
+  .judul h5 {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .judul h1 {
+    font-size: 80px;
+    margin-left: 0px;
+  }
+
+  .footer h5{
+    padding-left: 50px;
+    font-size: 10px;
+  }
+
+  .pesan{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .judul h5 {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .judul h1 {
+    font-size: 75px;
+    margin-left: 0px;
+  }
+  .footer h5{
+    padding-left: 50px;
+    font-size: 10px;
+  }
+
+  .pesan{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
